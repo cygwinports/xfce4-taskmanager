@@ -1,0 +1,6 @@
+inherit xfce4
+
+DESCRIPTION="Xfce4 task manager"
+HOMEPAGE="http://goodies.xfce.org/projects/applications/${PN}"
+SRC_URI="http://goodies.xfce.org/releases/${PN}/${P}.tar.bz2"
+PATCH_URI="0.3.2-configure.patch"

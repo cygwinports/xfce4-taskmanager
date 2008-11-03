@@ -1,0 +1,83 @@
+xfce4-taskmanager
+------------------------------------------
+A simple taskmanager for the Xfce Desktop Environment.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libintl8-0.17-2
+  libxfce4util-4.5.91-1
+  libxfcegui4-4.5.91-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+  xfce4-dev-tools-4.5.91-1
+
+Canonical website:
+  http://goodies.xfce.org/projects/applications/xfce4-taskmanager
+
+Canonical download:
+  http://goodies.xfce.org/releases/xfce4-taskmanager/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xfce4-taskmanager-0.3.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xfce4-taskmanager-0.3.2-X.cygport all
+
+This will create:
+  /usr/src/xfce4-taskmanager-0.3.2-X-src.tar.bz2
+  /usr/src/xfce4-taskmanager-0.3.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/xfce4-taskmanager.exe
+  /usr/share/doc/xfce4-taskmanager-0.3.2/AUTHORS
+  /usr/share/doc/xfce4-taskmanager-0.3.2/COPYING
+  /usr/share/doc/xfce4-taskmanager-0.3.2/ChangeLog
+  /usr/share/doc/xfce4-taskmanager-0.3.2/INSTALL
+  /usr/share/doc/xfce4-taskmanager-0.3.2/README
+  /usr/share/doc/xfce4-taskmanager-0.3.2/THANKS
+  /usr/share/doc/xfce4-taskmanager-0.3.2/TODO
+  /usr/share/locale/cs/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/de/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/eu/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/fi/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/fr/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/gl/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/hu/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/ja/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/nl/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/pl/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/ru/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/vi/LC_MESSAGES/xfce4-taskmanager.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/xfce4-taskmanager.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.3.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
