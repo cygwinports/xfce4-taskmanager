@@ -1,4 +1,4 @@
 category: Gnome
-requires: cygwin libglib2.0_0 libgtk2.0_0 libintl8 libxfce4util4 libxfcegui4_4
+requires: cygwin libgcc1 libglib2.0_0 libgtk2.0_0 libintl8 libxfce4util4 libxfcegui4_4
 sdesc: "Xfce4 task manager"
 ldesc: "A simple taskmanager for the Xfce Desktop Environment."
