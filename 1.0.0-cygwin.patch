@@ -1,0 +1,11 @@
+--- origsrc/xfce4-taskmanager-1.0.0/configure.ac	2010-06-14 06:02:03.000000000 -0500
++++ src/xfce4-taskmanager-1.0.0/configure.ac	2011-01-19 03:21:35.440690900 -0600
+@@ -109,7 +109,7 @@ else
+ 		AC_CHECK_HEADERS([fcntl.h kstat.h procfs.h pwd.h stdlib.h string.h \
+ 				sys/procfs.h sys/stat.h sys/swap.h sys/types.h])
+ 		;;
+-		linux*)
++		linux*|cygwin*)
+ 		ac_os_implementation="linux"
+ 		AC_CHECK_HEADERS([pwd.h signal.h stdio.h string.h sys/resource.h \
+ 				sys/stat.h sys/types.h unistd.h])

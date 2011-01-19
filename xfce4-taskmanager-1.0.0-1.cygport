@@ -1,0 +1,6 @@
+inherit xfce4
+
+DESCRIPTION="Xfce4 task manager"
+HOMEPAGE="http://goodies.xfce.org/projects/applications/${PN}"
+
+PATCH_URI="1.0.0-cygwin.patch"
