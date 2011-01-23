@@ -1,3 +1,5 @@
+http://cygwin.com/ml/cygwin/2006-07/msg00716.html
+
 --- origsrc/xfce4-taskmanager-1.0.0/configure.ac	2010-06-14 06:02:03.000000000 -0500
 +++ src/xfce4-taskmanager-1.0.0/configure.ac	2011-01-19 03:21:35.440690900 -0600
 @@ -109,7 +109,7 @@ else
@@ -9,3 +11,15 @@
  		ac_os_implementation="linux"
  		AC_CHECK_HEADERS([pwd.h signal.h stdio.h string.h sys/resource.h \
  				sys/stat.h sys/types.h unistd.h])
+--- origsrc/xfce4-taskmanager-1.0.0/src/task-manager-linux.c	2010-06-13 12:06:33.000000000 -0500
++++ src/xfce4-taskmanager-1.0.0/src/task-manager-linux.c	2011-01-22 19:56:54.543530100 -0600
+@@ -115,7 +115,9 @@ static inline int get_pagesize (void)
+ 	static int pagesize = 0;
+ 	if (pagesize == 0)
+ 	{
++#ifndef __CYGWIN__
+ 		pagesize = sysconf (_SC_PAGESIZE);
++#endif
+ 		if (pagesize == 0)
+ 			pagesize = 4096;
+ 	}
