@@ -1,4 +1,0 @@
-category: Xfce
-requires: libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libwnck1_22
-sdesc: "Xfce4 task manager"
-ldesc: "A simple taskmanager for the Xfce Desktop Environment."
